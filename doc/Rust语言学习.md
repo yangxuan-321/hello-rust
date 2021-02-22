@@ -1,9 +1,7 @@
 # Rust语言学习
 
 ### hello world例子
-
 ------
-
 hello.rs
 
 ```rust
@@ -23,7 +21,6 @@ fn mian(){
 
 
 ### rust的编译过程
-
 -----------------
 
 ​                             生成AST    ~~>     HIR     ~~>     MIR     ~~>     LLVM     ~~>     机器码
@@ -33,7 +30,6 @@ fn mian(){
 
 
 ### rust包管理工具、构建工具  
-
 -------
 
 cargo
@@ -43,7 +39,6 @@ cargo
 
 
 ### 使用cargo创建一个工程
-
 -----
 
 cargo new hello-rust
@@ -86,6 +81,4 @@ cargo build只构建不运行
 -----
 
 
-
-
-
+### 使用cargo创建一个工程
